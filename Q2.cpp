@@ -8,7 +8,7 @@ int removeDuplicates(int arr[], int n) {
 
     for (int i = 0; i < n; i++) {
         bool isDuplicate = false;
-        // Check if arr[i] appeared before
+       
         for (int j = 0; j < k; j++) {
             if (arr[i] == arr[j]) {
                 isDuplicate = true;
@@ -35,3 +35,4 @@ int main() {
     }
     return 0;
 }
+
